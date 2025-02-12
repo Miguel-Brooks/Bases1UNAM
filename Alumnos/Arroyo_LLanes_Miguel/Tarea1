@@ -1,0 +1,18 @@
+Modelo orientado a objetos
+Los modelos orientados a objetos es un modelo de bases de datos donde los componentes se almacenan como objetos y no como datos asemejándose al hacer tablas como en el modelo relacional. Se dividen en clase, objeto, variable y método. 
+Características de estos hay varios como que pueden ser capaces de definir sus propios tipos de datos, pueden ser de un tamaño muy grande , es eficaz al tratar de recuperar objetos completos, su lenguaje de consulta es OQL, sus transacciones pueden llegar a ser algo tardadas, tiene mecanismos de seguridad basados en la noción del objeto, etc. 
+Aprovecha el paradigma tecnológico que considera como una entidad dinámica formada por componentes definiendo la estructura de los componentes y sus posibles interacciones.
+Estos tienen como ventaja la consistencia con el código, reutilización de clases al reducir la duplicación de código mejorando la eficacia del desarrollo y ofrecen una seguridad basada en la noción del objeto.
+Como desventajas tiene la complejidad al ser difíciles de aprender y usar, su rendimiento puede no ser el más rápida y mientras más complejo será más lento y su escalabilidad puede ser menos eficiente.
+Estos suelen utilizarse en aplicaciones multimedia y sistemas de información geográfica.
+
+Modelo NoSQL 
+Esta es una base de datos con un enfoque el cual permite el almacenamiento y consultas de datos similar a los sistemas de bases de datos relacionales, sin embargo, en vez de una estructura tabular como en una base de datos relacional, NoSQL alberga datos dentro de una estructura de datos. Esto ofrece una escalabilidad rápida para administrar conjuntos de datos grandes.
+Clave-valor suele ser la forma más sencilla de las bases de datos NoSQL, en esta cada elemento tiene una clave y un valor, siendo la clave similar a un ID, siendo utilizado mayormente para almacenar en cache la información de a sesión de un usuario. Sin embargo, no es ideal cuando se necesitan extraer varios registros a la vez. Casos de uso son en los carritos de compras.
+Los documentales son bases de datos de documentos en formato JSON, XML o BSON manteniendo datos juntos cuando se utilizan en aplicaciones. Suelen ser utilizadas en aplicaciones ayudando a reducir la cantidad de traducciones necesarias para utilizar los datos. Su desventada es que sueles ser transacciones complejas y pueden llegar a corromperse los datos.
+Los grafos suelen alojar datos de un grafo de conocimiento, almacenados en nodos, aristas y propiedades. Un nodos puede ser cualquier objeto, lugar o persona. Estos suelen ser muy eficientes en las búsquedas y suelen ser utilizados en servicios de bases de datos para almacenar conexiones entre elementos como enlaces a empresas siendo un ejemplo IBM. Sin embargo, suelen tener una falta de estandarización y pueden llegar a haber inconsistencia entre los datos y su escalabilidad puede ser algo más limitada a comparación de otros tipos de bases de datos NoSQL.
+En forma general a los modelos NoSQL suelen ser rentables, flexibles a la escalabilidad, tienen una gran velocidad y pueden ser fácilmente replicados.
+
+Bibliografías formato IEEE
+•	[1] UAPA, "Modelo Orientado a Objetos," *Repositorio UAPA, UNAM*. [En línea]. Disponible: https://repositorio-uapa.cuaieed.unam.mx/repositorio/moodle/pluginfile.php/2731/mod_resource/content/1/UAPA-Modelo-Orientado-Objetos/index.html. (Accedido: 06-feb-2025).
+•	[2] IBM, "Bases de datos NoSQL," *IBM*. [En línea]. Disponible: https://www.ibm.com/es-es/topics/nosql-databases. (Accedido: 06-feb-2025).
